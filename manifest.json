@@ -2,7 +2,7 @@
     "manifest_version": 3,
     "name": "SSStylish Text",
     "version": "1.0",
-    "description": "Stylize highlighted text in input fields with different font styles.",
+    "description": "Stylize highlighted text in input fields with different styles.",
     "permissions": ["activeTab", "contextMenus"],
     "background": {
         "service_worker": "background.js"
@@ -15,6 +15,6 @@
         }
     ],
     "action": {
-        "default_popup": "index.html"
+        "default_popup": "popup.html"
     }
 }

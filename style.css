@@ -1,33 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-#ssstylish-popup {
+.popup-body {
+    background: #fff7d1;
+    width: 250px;
+    font-family: "Poppins", sans-serif;
+    color: #333;
+}
+
+.popup-header {
+    background: #fff2ab;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.popup-main {
+    padding: 10px;
+    font-size: 12px;
+    font-weight: medium;
+    text-align: center;
+}
+
+.popup-footer {
+    border-top: 1px solid #ede6c2;
+    padding: 10px;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#context-menu {
     background-color: #fff7d1;
     border: 1px solid #333;
     position: absolute;
     padding: 10px;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.25);
     z-index: 9999;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25);
 }
 
-#ssstylish-button-container {
+#context-menu-container {
     display: flex;
     flex-direction: row;
     gap: 5px;
 }
 
-#ssstylish-popup button {
+#context-menu button {
     width: 30px;
     height: 30px;
     background: none;
     color: #666354;
-    font-size: 1rem;
+    font-size: 16px !important;
     border: none;
 }
 
-#ssstylish-popup button:hover {
+#context-menu button:hover {
     background: #ede6c2;
 }

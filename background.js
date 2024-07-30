@@ -1,7 +1,7 @@
 chrome.runtime.onInstalled.addListener(() => {
     chrome.contextMenus.create({
         id: "SSStylishText",
-        title: "Stylize Text",
+        title: "SSStylish Text",
         contexts: ["selection"],
     });
 });
