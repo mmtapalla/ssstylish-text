@@ -1,6 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
-* {
+.popup-body,
+.popup-header,
+.popup-main,
+.popup-footer,
+#context-menu,
+#context-menu-button-container,
+#context-menu-button-container button {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -45,21 +51,21 @@
     z-index: 9999;
 }
 
-#context-menu-container {
+#context-menu-button-container {
     display: flex;
     flex-direction: row;
     gap: 5px;
 }
 
-#context-menu button {
+#context-menu-button-container button {
     width: 30px;
     height: 30px;
     background: none;
     color: #666354;
-    font-size: 16px !important;
+    font-size: 16px;
     border: none;
 }
 
-#context-menu button:hover {
+#context-menu-button-container button:hover {
     background: #ede6c2;
 }
